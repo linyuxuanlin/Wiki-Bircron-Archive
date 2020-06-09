@@ -1,0 +1,35 @@
+{
+    "status": "bounce...", 
+    "mail_id": "0100016897c754f5-ecf3b88a-e3ae-471f-a582-0351a049a217-000000", 
+    "sender": "yxrct@bitcron.com<yxrct+96c3e918b718d064dcb004673833046ed8eef712@bitcron.com>", 
+    "title": "New Comment", 
+    "doc_uuid": "7898e9fbcb885a0e72f2a977537781f4a0c47dd1", 
+    "node_ip": "173.247.232.26", 
+    "content": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<html>\n<head>\n    <title>New Comment</title>\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n</head>\n<body>\n    <div style=\"font-size: 14px; max-width:720px;font-family: 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; letter-spacing: 1px; margin: 30px auto 50px auto;-webkit-text-size-adjust:none; border-radius:5px;border: 1px solid #ddd;\">\n        <div id=\"head\" style=\"padding: 0 10px; height:38px; border-radius:5px; border-bottom-left-radius: 0 0;border-bottom-right-radius: 0 0; background: #ababab; text-align: right;\">\n            <div id=\"caption\" style=\"color: #fafafa; line-height: 2.5;font-size: 16px;\">\n                New Comment\n            </div>\n        </div>\n\n        <div style=\"line-height: 1.9;font-size: 13px;color:#555;padding: 10px 15px 0 15px; margin: 0 10px\">\n\n            <p>Hey,</p>\n\n\n            <p><b>linyuxuanlin</b> Said on <a href=\"https://yxrct.com/markdown/hui-gui-bo-ke\" style=\"text-decoration: none; color: #333;\">\u56de\u5f52\u535a\u5ba2</a></p>\n\n            <div>\n\n                @\u6635 \u4e3a\u4e86\u4e00\u4e2a\u6bd4\u8f83\u77ed\u7684\u57df\u540d\u800c\u7ede\u5c3d\u8111\u6c41\ud83d\ude02\u5728\u624b\u673a\u7aef\u663e\u793a\u5e94\u8be5\u6b63\u5e38\u4e86\n\n            </div>\n\n\n            \n\n\n            <div style=\"text-align: right\">\n                <a href=\"https://yxrct.com/markdown/hui-gui-bo-ke\" style=\"color: #008aff;\">&gt;visit and reply comment</a>\n            </div>\n\n\n            <hr style=\"margin-top:35px;border:none; border-bottom: 1px solid #eee; height: 1px;\"/>\n\n            <p style=\"font-size: 10px\">\n                simple is everything, we try our best to make the Tech meet the needs of our lives.\n            </p>\n\n        </div>\n        <div>\n\n        </div>\n    </div>\n</body>\n</html>", 
+    "cloud_file_date": {
+        "$date": 1548734649781
+    }, 
+    "date": {
+        "$date": 1548734649781
+    }, 
+    "raw": false, 
+    "delivery_status": {
+        "remoteMtaIp": "104.47.34.33", 
+        "feedbackId": "0100016897c75786-c2e34cf7-086d-4044-9d18-e1b0e9e39fd1-000000", 
+        "timestamp": "2019-01-29T04:04:10.315Z", 
+        "reportingMTA": "dsn; a8-208.smtp-out.amazonses.com", 
+        "bounceSubType": "General", 
+        "bouncedRecipients": [
+            {
+                "action": "failed", 
+                "status": "5.5.0", 
+                "diagnosticCode": "smtp; 550 5.5.0 Requested action not taken: mailbox unavailable. [BY2NAM01FT060.eop-nam01.prod.protection.outlook.com]", 
+                "emailAddress": "support@outlook.com"
+            }
+        ], 
+        "bounceType": "Permanent"
+    }, 
+    "to": [
+        "support@outlook.com"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "nav_configs":[
+        {
+            "url":"\/",
+            "name":"Home"
+        },
+        {
+            "url":"\/archive",
+            "name":"Archive"
+        },
+        {
+            "url":"\/tags",
+            "name":"Tags"
+        },
+        {
+            "url":"\/eden\/digest",
+            "name":"\u4e66\u6458"
+        },
+        {
+            "url":"\/about",
+            "name":"About"
+        }
+    ],
+    "user_nav_disabled":false
+}

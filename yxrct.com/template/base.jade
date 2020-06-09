@@ -1,0 +1,60 @@
+html
+	+h.i18n('Home', '首页', 'zh_cn')
+	+h.i18n('Categories', '分类', 'zh_cn')
+	+h.i18n('Archive', '归档', 'zh_cn')
+	+h.i18n('Tags', '标签', 'zh_cn')
+	+h.i18n('About', '关于', 'zh_cn')
+	+h.i18n('RSS', '订阅', 'zh_cn')
+	+h.i18n('Links', '友链', 'zh_cn')
+
+	head(lang="zh")
+		+h.headers
+
+		block title
+			title= post.title or site.title
+
+
+
+		+h.load('markdown')
+		+h.load('/template/static/style.scss')
+		+h.load('/template/static/jquery.js')
+		+h.load('/template/static/basic.js')
+
+	body
+
+		.header
+			.logo_title
+				.title.animated.fadeInDown
+
+					
+					h1.weaklink(title="反应堆")
+						a(href="/") {{ site.title }} 
+
+					.navbar.weaklink
+						.normal_nav
+							+site.just_nav
+							
+						.hamberger
+							i.fa.fa-bars
+							i.fa.fa-times
+			.hidden_nav.animated.fadeInDown
+				+site.just_nav			
+
+		.main
+			.main-inner
+				block content
+
+			if post.metadata.layout == 'post'
+				include sidebar
+
+
+		.footer
+			+footer()
+				.mysocials
+					+site.socials
+
+				.copyright
+					span © 2015 - 2018 {{site.title}} | Powered by YX Lin
+
+		+h.load('font')
+		+h.back_to_top('△')
